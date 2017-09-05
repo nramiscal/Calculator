@@ -7,13 +7,6 @@ class Calculator implements java.io.Serializable {
     public Calculator(){
     }
 
-    // public Calculator(double operandOne, String operation, double operandTwo){
-    //     setOperandOne(operandOne);
-    //     setOperation(operation);
-    //     setOperandTwo(operandTwo);
-    //     performOperation(operandOne, operation, operandTwo);
-    // }
-
     // getters
     public double getOperandOne(){ return operandOne; }
     public double getOperandTwo(){ return operandTwo; }
